@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GeepShopping.ProductAPI.Migrations
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20230423025440_SeedProductData")]
-    partial class SeedProductData
+    [Migration("20231106042640_Initial_Migration")]
+    partial class Initial_Migration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

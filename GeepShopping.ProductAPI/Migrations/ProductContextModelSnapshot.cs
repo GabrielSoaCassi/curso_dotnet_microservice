@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GeepShopping.ProductAPI.Migrations
 {
     [DbContext(typeof(ProductContext))]
-    partial class ProdutcContextModelSnapshot : ModelSnapshot
+    partial class ProductContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
